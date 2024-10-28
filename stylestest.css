@@ -1,0 +1,97 @@
+
+  :root {
+    --bg-color: #fbfbfb;
+    --text-color: #0e0c09;
+    --clr-primary: #978872;
+    --clr-secondary: #85b091;
+    --clr-accent: #bdc8ae;  
+
+    /* fonts */
+    --font-heading: "Zen Dots", sans-serif;
+    --font-text: "Raleway", sans-serif;
+}
+
+
+.zen-dots-regular {
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-heading-regular {
+    font-family: var(--font-text);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-heading-bold {
+    font-family: var(--font-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font-text);
+}
+.quoteSection{
+    background-image: url("./images/lunar-module-ascent-stage.webp");
+    background-size:cover;
+}
+.quoteSection p{
+    color:var(--bg-color);
+    position: relative;
+}
+.quoteSection p::before{ 
+    content: '"';
+    color:var(--clr-primary);
+    font-size: 100px;
+    font-style: italic;
+}
+.endQuote{
+    position: absolute;
+    bottom: -1em ;
+    color:var(--clr-primary);
+    font-size: 100px;
+    right: .5em;
+}
+.linkMore{
+    background-color: var(--clr-accent) ;
+    border-color: var(--clr-primary);
+}
+footer{
+    background-color: var(--clr-primary);
+    color: #fbfbfb;
+}
+footer img{
+    width: 75px;
+}
+.side-images img{
+    width: 175px;
+}
+.side-images{
+    background-color: rgba(189, 200, 174, 0.3);
+    height: 100%;
+    border: 1px solid var(--clr-accent);
+}
+.mainContText{
+    max-width: 1000px;
+}
+.main-content{
+    background-color:rgba(151, 136, 114, 0.3);
+    border: 1px solid var(--clr-primary);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-bottom: 50px !important;
+}
+.mainimg{
+    width:40%;
+    
+}
