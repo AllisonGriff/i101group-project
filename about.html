@@ -14,9 +14,9 @@
         rel="stylesheet">
 </head>
 
-<body class="d-flex align-items-center justify-content-between flex-column">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary zen-dots-regular py-4">
+<body class="d-flex align-items-center justify-content-between flex-column position-relative ">
+    <div class="container position-relative">
+        <nav class="navbar navbar-expand-lg  zen-dots-regular py-4">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -42,20 +42,23 @@
             </div>
         </nav>
     </div>
-    <div class="row container">
-        <div class="col-md-6">
-            <div class="Table of Contents">
-                <h4>Table of Contents:</h4>
-                <p> <a href="#Earlylife">Early Life </a></p>
-                <p> <a href="#Career">Career Overview</a></p>
-                <p> <a href="#Struggles">Struggles </a> </p>
-                <p><a href="#Achievements">Achievements </a></p>
-                <img src="images/M.Ham.working.jpg" class="img-fluid text-center image3"
-                    alt="Margaret Hamilton Writing Image">
+    <div class="row container position-relative">
+        <div class="col-md-3 ">
+            <div class="position-sticky sticky-top py-4">
+                <h2 class="fs-4">Table of Contents:</h2>
+                <ul>
+                <li> <a href="#Earlylife">Early Life </a></li>
+                <li> <a href="#Career">Career Overview</a></li>
+                <li> <a href="#Struggles">Struggles </a> </li>
+                <li><a href="#Achievements">Achievements </a></li>
+                </ul>
+
             </div>
         </div>
-        <div class="col-md-6" id="Earlylife">
-            <h1>About Margaret</h1>
+        <div class="col-md-9" id="Earlylife">
+            <img src="images/M.Ham.working.jpg" class="img-fluid text-center image3  float-start w-50 m-3"
+            alt="Margaret Hamilton Writing Image">
+            <h1 class="zen-dots-regular">About Margaret</h1>
             <h4>Early Life</h4>
             <p class="p1"> Margaret Elaine Hamilton was born in Paoli, Indiana on August 17, 1936. She later moved
                 to Michigan with her family, where she received her high school diploma from Hancock High School.
@@ -74,11 +77,8 @@
                 creating weather predicting software. Her software contributed to Lorenz's discovery of the Chaos
                 Theory. While working on software at MIT, Hamilton coined the term "software engineering". The now
                 popular term was ridiculed and mocked at the at the time of its creation.</p>
-        </div>
-    </div>
-    <div class="row container " id="Career">
-        <h4>Career Overview</h4>
-        <div class="col-md-12">
+                <h4>Career Overview</h4>
+
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -91,6 +91,18 @@
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                 culpa qui officia deserunt mollit anim id est labor</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+
+    </div>
         </div>
     </div>
     <div class="threeImgCont w-100">
@@ -116,16 +128,7 @@
                     <img src="images/SAGE_1500.jpg" class="img-fluid text-center image3" alt="Margaret and Man Image">
                     
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor</p>
+                
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -187,7 +190,7 @@
         </div>
         <div class="container my-5">
            
-                <img src="images/odettainc-margaret-hamilton-receiving-award.jpg" class="img-fluid text-center image3 float-start w-50 me-4 mb-4" alt="Margaret Winning Medal">
+                <img src="images/odettainc-margaret-hamilton-receiving-award.jpg" class="img-fluid text-center image3 float-start w-40 me-4 mb-4" alt="Margaret Winning Medal">
            
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
