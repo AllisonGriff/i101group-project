@@ -172,3 +172,12 @@ ul{
     aspect-ratio: 1/1.2;
     object-fit: cover;
 }
+.authImg{
+    max-width: 350px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    margin: 30px;
+    margin-bottom: 30px;
+}
