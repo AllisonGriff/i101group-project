@@ -32,6 +32,10 @@
     font-style: normal;
 }
 
+.light-text {
+    color: var(--bg-color)
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +48,8 @@ body{
 .quoteSection{
     background-image: url("./images/lunar-module-ascent-stage.webp");
     background-size:cover;
+    position: relative;
+    overflow: hidden;
 }
 .quoteSection p{
     color:var(--bg-color);
@@ -54,6 +60,16 @@ body{
     color:var(--clr-primary);
     font-size: 100px;
     font-style: italic;
+}
+
+.cards {
+    z-index: 2;
+    position: relative;
+}
+
+.quoteContent{
+    position: relative;
+    z-index: 2;
 }
 .endQuote{
     position: absolute;
@@ -181,3 +197,53 @@ ul{
     margin: 30px;
     margin-bottom: 30px;
 }
+
+ .star {    
+    display: block;
+    position:absolute;
+    top: 50%;
+    left: 30%;
+    animation: twinkle 5s 0s infinite linear;
+    opacity: 0;
+    pointer-events: none;
+}
+.starHolder{
+    background-color: #000000;
+    overflow: hidden
+}
+
+
+@keyframes twinkle{
+    0%{
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+
+    90%{
+        opacity: 0 ;
+    }
+    100%{
+        transform: translate(-100px, 100px);
+    }
+}
+
+/* @keyframes animateStar {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-100px, 70px);
+}} */ 
