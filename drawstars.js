@@ -1,10 +1,10 @@
 const starCont=document.querySelector(".quoteSection")
 const starCont2=document.querySelector(".starHolder")
-const totalStar= 50
+const totalStar= window.innerWidth/10;
 for(let i=0; i<totalStar; i++){
     let animationdelay=Math.random() *6
     let size=Math.random() *2.5+1
-    let speed= Math.random() * 8+5
+    let speed= Math.random() * 8 + 5
     let posTop= Math.random() * 100
     let posLeft=Math.random() * 100
     let randNum=Math.random() *5

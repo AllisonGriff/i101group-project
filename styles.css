@@ -209,7 +209,8 @@ ul{
 }
 .starHolder{
     background-color: #000000;
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
 }
 
 
