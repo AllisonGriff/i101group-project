@@ -45,7 +45,7 @@ for(let i=0; i<totalStar; i++){
     }
     else if(randStar<3){
         star=`<span class="star"
-    style="animation: twinkle ${speed}s ${animationdelay}s infinite linear; width:${size}px; height:${size}px; top:${posTop}%;left:${posLeft}%; color:${color}; border-radius:${bdStarRD}%;box-shadow:rgb(255, 255, 255) 0px 0px 20px 1px; display:flex; justify-content:center; align-items:center;">▴</span>`
+    style="animation: twinkle ${speed}s ${animationdelay}s infinite linear; width:${size}px; height:${size}px; top:${posTop}%;left:${posLeft}%; color:${color}; border-radius:${bdStarRD}%; box-shadow:${color} 0px 0px 20px 1px; display:flex; justify-content:center; align-items:center;">▴</span>`
     }
 
 
